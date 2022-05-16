@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ROSearchView" customModule="Roatlas" customModuleProvider="target">
+            <connections>
+                <outlet property="clearImageStackView" destination="PeR-6L-cPk" id="XZS-Xw-UEW"/>
+                <outlet property="clearImageView" destination="68w-MA-9xs" id="KnS-qL-VuG"/>
+                <outlet property="contentStackView" destination="t0n-6f-ByV" id="Gb0-hA-q0K"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="THc-Rp-aHK"/>
+                <outlet property="contentsLayer" destination="6gX-qc-OwM" id="pOA-OY-CDv"/>
+                <outlet property="heightSeparatorView" destination="gFS-9F-34W" id="rrZ-Jk-V5X"/>
+                <outlet property="searchResultView" destination="lLE-ed-CQk" id="DqP-Il-nV0"/>
+                <outlet property="searchStackView" destination="Bck-T0-IiJ" id="gEQ-Fr-02b"/>
+                <outlet property="separatorView" destination="cpU-UR-wgI" id="KIw-qH-BIn"/>
+                <outlet property="textField" destination="nhT-uP-BvE" id="Nfg-JB-dPu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="348"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gX-qc-OwM">
+                    <rect key="frame" x="0.0" y="0.0" width="365" height="348"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="t0n-6f-ByV">
+                            <rect key="frame" x="0.0" y="0.0" width="365" height="348"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bck-T0-IiJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="365" height="95"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Choose city" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nhT-uP-BvE">
+                                            <rect key="frame" x="10" y="49" width="325" height="41"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                        </textField>
+                                        <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PeR-6L-cPk" userLabel="Image Stack View">
+                                            <rect key="frame" x="335" y="49" width="25" height="41"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="68w-MA-9xs">
+                                                    <rect key="frame" x="0.0" y="2" width="20" height="36.5"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="20" id="T0c-yn-Cbq"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="0.0" bottom="0.0" trailing="5"/>
+                                        </stackView>
+                                    </subviews>
+                                    <directionalEdgeInsets key="directionalLayoutMargins" top="5" leading="10" bottom="5" trailing="5"/>
+                                </stackView>
+                                <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cpU-UR-wgI">
+                                    <rect key="frame" x="0.0" y="95" width="365" height="1"/>
+                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="gFS-9F-34W"/>
+                                    </constraints>
+                                </view>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLE-ed-CQk" customClass="ROSearchResultView" customModule="Roatlas" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="95" width="365" height="253"/>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="t0n-6f-ByV" secondAttribute="bottom" id="C1A-ll-jfx"/>
+                        <constraint firstAttribute="trailing" secondItem="t0n-6f-ByV" secondAttribute="trailing" id="IIe-3q-xgw"/>
+                        <constraint firstItem="t0n-6f-ByV" firstAttribute="leading" secondItem="6gX-qc-OwM" secondAttribute="leading" id="wGG-MK-3ZU"/>
+                        <constraint firstItem="t0n-6f-ByV" firstAttribute="top" secondItem="6gX-qc-OwM" secondAttribute="top" id="zYd-Hv-hwq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6gX-qc-OwM" secondAttribute="trailing" id="QIG-Le-ZKZ"/>
+                <constraint firstAttribute="bottom" secondItem="6gX-qc-OwM" secondAttribute="bottom" id="eYX-4K-dB3"/>
+                <constraint firstItem="6gX-qc-OwM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ept-5U-1yY"/>
+                <constraint firstItem="6gX-qc-OwM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xHB-yQ-pAq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="97.826086956521749" y="-77.008928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

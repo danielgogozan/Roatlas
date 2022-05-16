@@ -1,0 +1,6 @@
+framework module Roatlas {
+  umbrella header "Roatlas-umbrella.h"
+
+  export *
+  module * { export * }
+}

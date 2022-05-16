@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ROSearchResultView" customModule="Roatlas" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomConstraint" destination="i0A-wT-Dpy" id="4jt-nA-qZB"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="J8h-Qr-vYP"/>
+                <outlet property="leadingConstraint" destination="Yzr-qm-qMg" id="vcg-Ko-itf"/>
+                <outlet property="settlementsTableView" destination="pLH-Zf-EpJ" id="AXx-bA-rsW"/>
+                <outlet property="topConstraint" destination="BRZ-r0-E9T" id="IT2-Ac-7Il"/>
+                <outlet property="trailingConstraint" destination="cRl-Gj-tZr" id="Odx-oX-dqW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="161"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pLH-Zf-EpJ">
+                    <rect key="frame" x="0.0" y="0.0" width="415" height="161"/>
+                    <inset key="separatorInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="pLH-Zf-EpJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BRZ-r0-E9T"/>
+                <constraint firstItem="pLH-Zf-EpJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Yzr-qm-qMg"/>
+                <constraint firstAttribute="trailing" secondItem="pLH-Zf-EpJ" secondAttribute="trailing" id="cRl-Gj-tZr"/>
+                <constraint firstAttribute="bottom" secondItem="pLH-Zf-EpJ" secondAttribute="bottom" id="i0A-wT-Dpy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="138.40579710144928" y="-148.32589285714286"/>
+        </view>
+    </objects>
+</document>

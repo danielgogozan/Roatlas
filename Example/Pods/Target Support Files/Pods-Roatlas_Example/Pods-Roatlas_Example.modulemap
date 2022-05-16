@@ -1,0 +1,6 @@
+framework module Pods_Roatlas_Example {
+  umbrella header "Pods-Roatlas_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

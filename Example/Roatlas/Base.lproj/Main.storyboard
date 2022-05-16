@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Roatlas_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kHu-H0-WCF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="EKz-7a-0IK">
+                                        <rect key="frame" x="0.0" y="150" width="375" height="295"/>
+                                        <subviews>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Bt-jl-Qz4" userLabel="Holder 3">
+                                                <rect key="frame" x="15" y="100" width="345" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="QLN-CV-Vvx"/>
+                                                </constraints>
+                                            </view>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hh1-HN-U0j" userLabel="Holder 2">
+                                                <rect key="frame" x="15" y="170" width="345" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="Elu-VX-OHC"/>
+                                                </constraints>
+                                            </view>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tx8-FW-lC8" userLabel="Holder 1">
+                                                <rect key="frame" x="15" y="240" width="345" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="5sl-wa-98e"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="100" leading="15" bottom="15" trailing="15"/>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kcu-kT-oRd" customClass="ROSearchView" customModule="Roatlas">
+                                        <rect key="frame" x="15" y="390" width="345" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" placeholder="YES" id="gvY-yO-t5U"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgS-7g-iVI" customClass="ROSearchView" customModule="Roatlas">
+                                        <rect key="frame" x="15" y="320" width="345" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" placeholder="YES" id="Akk-gc-2lE"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u58-lg-juV" customClass="ROSearchView" customModule="Roatlas">
+                                        <rect key="frame" x="15" y="250" width="345" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" placeholder="YES" id="ILk-2P-XUE"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bgS-7g-iVI" firstAttribute="leading" secondItem="Hh1-HN-U0j" secondAttribute="leading" id="1L9-O2-P1w"/>
+                                    <constraint firstItem="bgS-7g-iVI" firstAttribute="trailing" secondItem="Hh1-HN-U0j" secondAttribute="trailing" id="2fs-8c-jhs"/>
+                                    <constraint firstAttribute="bottom" secondItem="EKz-7a-0IK" secondAttribute="bottom" id="3GF-A1-JD6"/>
+                                    <constraint firstItem="Kcu-kT-oRd" firstAttribute="leading" secondItem="tx8-FW-lC8" secondAttribute="leading" id="524-wK-9yA"/>
+                                    <constraint firstItem="Kcu-kT-oRd" firstAttribute="trailing" secondItem="tx8-FW-lC8" secondAttribute="trailing" id="6JP-b3-3ht"/>
+                                    <constraint firstItem="u58-lg-juV" firstAttribute="leading" secondItem="0Bt-jl-Qz4" secondAttribute="leading" id="AH2-Cz-e7x"/>
+                                    <constraint firstItem="EKz-7a-0IK" firstAttribute="top" secondItem="kHu-H0-WCF" secondAttribute="top" constant="150" id="BrJ-4T-1in"/>
+                                    <constraint firstItem="EKz-7a-0IK" firstAttribute="leading" secondItem="kHu-H0-WCF" secondAttribute="leading" id="EOs-Fj-MfF"/>
+                                    <constraint firstAttribute="trailing" secondItem="EKz-7a-0IK" secondAttribute="trailing" id="Epa-Hr-eTA"/>
+                                    <constraint firstItem="bgS-7g-iVI" firstAttribute="top" secondItem="Hh1-HN-U0j" secondAttribute="top" id="Fzc-4H-zzl"/>
+                                    <constraint firstItem="u58-lg-juV" firstAttribute="trailing" secondItem="0Bt-jl-Qz4" secondAttribute="trailing" id="H2r-5U-CBN"/>
+                                    <constraint firstItem="EKz-7a-0IK" firstAttribute="width" secondItem="kHu-H0-WCF" secondAttribute="width" id="MTs-qI-oih"/>
+                                    <constraint firstItem="u58-lg-juV" firstAttribute="top" secondItem="0Bt-jl-Qz4" secondAttribute="top" id="hAa-qd-5I9"/>
+                                    <constraint firstItem="Kcu-kT-oRd" firstAttribute="top" secondItem="tx8-FW-lC8" secondAttribute="top" id="jKN-h9-JHd"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87056511640548706" green="0.93260020017623901" blue="0.96287590265274048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kHu-H0-WCF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="5T0-rA-j0Z"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="kHu-H0-WCF" secondAttribute="bottom" id="bL5-Re-bD8"/>
+                            <constraint firstItem="kHu-H0-WCF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="obD-nx-HrT"/>
+                            <constraint firstAttribute="trailing" secondItem="kHu-H0-WCF" secondAttribute="trailing" id="uOL-Ii-1hv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentStackView" destination="EKz-7a-0IK" id="9wd-JI-6d3"/>
+                        <outlet property="contentView" destination="kh9-bI-dsS" id="53c-k2-9sd"/>
+                        <outlet property="scrollView" destination="kHu-H0-WCF" id="Afh-ro-Pdv"/>
+                        <outlet property="searchView1" destination="Kcu-kT-oRd" id="NLI-CE-PH1"/>
+                        <outlet property="searchView2" destination="bgS-7g-iVI" id="Itv-Gx-qwz"/>
+                        <outlet property="searchView3" destination="u58-lg-juV" id="aDY-Io-35U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38" y="109"/>
+        </scene>
+    </scenes>
+</document>
