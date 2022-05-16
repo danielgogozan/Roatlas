@@ -7,167 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042FDDAB6290DBD753774F4C1C10A1BE /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16ACDE2AE4B3E0207DFE4596ECCF28 /* CSV.swift */; };
 		0549B6F3AB8DE264BF49D4E85DB06672 /* Pods-Roatlas_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0333701840C8F13A7EA5D9D05150C9B /* Pods-Roatlas_Tests-dummy.m */; };
-		05DE68DB3D8E24C224B139B5C97DB3F2 /* SettlementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB147645DC98FF28159BB5879BF5EC /* SettlementRepository.swift */; };
-		0F911B245999B79F9A61563814BE3902 /* ClearButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF0B4B18355AEDDDD5C5AFAAEA2BB3 /* ClearButtonType.swift */; };
-		10C478091D0CE27CD93E2905170E928E /* SettlementCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = EF361E89195AD76D8915F91D25967EF7 /* SettlementCell.xib */; };
-		1C7C7F163EC53AEC7455E8417273F040 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026EDA9B2C54C6EEE0FA5B5DBF16B79 /* Description.swift */; };
-		23FFAE695173825F627CAFEF7C68F914 /* SwiftCSV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DE705C92D7D2D35F65FB4767C55DA7 /* SwiftCSV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28B2715115CCDEA09953D752C5A3AD4B /* Roatlas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB9D16E51BA88F8C197E136DBAD491 /* Roatlas-dummy.m */; };
-		297173F3469757A15E75EBD5AA2ED9FB /* EnumeratedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24267885B60F44D4DD36723C982754C1 /* EnumeratedView.swift */; };
-		2F1534B87FBA7805876F3BFB751BE830 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF58274B990B4573CA2EF5F179BD30 /* Debouncer.swift */; };
-		31C9B2D5C48DB2C27D8BDAD5E051CF54 /* localities.csv in Resources */ = {isa = PBXBuildFile; fileRef = F14453991A50794BB73D3D5680D63EA7 /* localities.csv */; };
+		0B296A540A4BD04204E7FD8A990D8B0A /* SwiftCSV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F395B92D2B1E5E7B6A441DB5B1F939A /* SwiftCSV-dummy.m */; };
+		0D8B013732EBFC4AE27A15420158B209 /* SettlementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8740127DC56D7F4F3ED5358725F7C6BD /* SettlementCell.swift */; };
+		1CC1BF6EC918FDAB27E59ADC6959F20A /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026EDA9B2C54C6EEE0FA5B5DBF16B79 /* Description.swift */; };
 		33F549CC8DC07614EC8986A8286625FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAB074D0C76901E5FF7C077367F043F /* Foundation.framework */; };
-		3FE7401F1576406C5417F9BDB6F07577 /* Roatlas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC8157ADD5ADBF051E4E7330BD01588 /* Roatlas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45A236AD091C87456DBA0C63BB6DC1F4 /* ROSearchResultView.xib in Sources */ = {isa = PBXBuildFile; fileRef = C8380E5AF8DF87C50E664D83AEB9E0ED /* ROSearchResultView.xib */; };
-		4A607322E1EF3F5D648F06DE798964C1 /* ROStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E713A16C3DCA8F47FD31DB0724668B54 /* ROStyles.swift */; };
-		56C662327A18391D56D0118774F2B6F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAB074D0C76901E5FF7C077367F043F /* Foundation.framework */; };
+		37BD16721B2CF938D7A948609FFE4A9E /* ROStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DFFCB95B08FD48755EB3DC180BF07 /* ROStyles.swift */; };
+		3FE7401F1576406C5417F9BDB6F07577 /* Roatlas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 070D390EEDC74A148EE692E248B40EE7 /* Roatlas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4023228909991C253297DBB1D32D50A0 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2611CC6D3F38DBFF1CD5FE4B7E129D55 /* Debouncer.swift */; };
+		47BBCEBE7D36F35E3C42D467BBE46DB2 /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33DD3908FA544F294024AB4150AD13 /* String+Lines.swift */; };
+		486B83EDA861A301171F6EE78D240309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAB074D0C76901E5FF7C077367F043F /* Foundation.framework */; };
+		56E66DD1E6722E4B5B695BEEBC6DFB6C /* ROSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190457740F3B4F612047A57512EE4F02 /* ROSearchView.swift */; };
 		59F4C2E633C3AEF61523A7E9FEFB59C3 /* Pods-Roatlas_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C628D4E7CDEA2BD447557DBF6E848EDC /* Pods-Roatlas_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE81D565797F8435A5CEF12F020B378 /* Roatlas.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5BF3973131DE51B84036152810050A1 /* Roatlas.bundle */; };
+		5D3EC6376E02866DEFFE5A049DC327B9 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB81487AA2D62F6EA733ABB608FEAF /* UIView+Ext.swift */; };
 		73A726D89346D3BB7463043D040C8779 /* Pods-Roatlas_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C708809D24C527FE7F9AA9668111052 /* Pods-Roatlas_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83C8637B65DE5F851A3E253F795D291D /* Settlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C1DA9A17CBA7BDCC4F2F3C036139F /* Settlement.swift */; };
-		854793C6600BAC6D7EB91B7A8DC681C3 /* localities.csv in Sources */ = {isa = PBXBuildFile; fileRef = F14453991A50794BB73D3D5680D63EA7 /* localities.csv */; };
-		938EFC01BC3629D6A8C06A76CE54F2FE /* NamedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA0E13FC4664F24D4A7DF51D275B /* NamedView.swift */; };
-		9659EA6FCB6E1278EF76649466D509F3 /* ROSearchView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A4B182FDE230B1CB7020A7376C5337CC /* ROSearchView.xib */; };
+		7E56331749B8964DF00181D2706FCA72 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1A17313467692513DF3C7C0488069 /* Parser.swift */; };
+		871461C14377DB2F3A1F99E936A277A6 /* ClearButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F04283DB301B9947A3BDA6379E6746 /* ClearButtonType.swift */; };
+		8C474509AADB3E900D2283AC2BEB65B0 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16ACDE2AE4B3E0207DFE4596ECCF28 /* CSV.swift */; };
+		9158D33BD8248AFCAFCC4976965504E6 /* SwiftCSV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DE705C92D7D2D35F65FB4767C55DA7 /* SwiftCSV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94C073C8C476F4CD0E1AC3BE44D7F761 /* ROSearchViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B027628CFF7192D9C8835479B6E39CDD /* ROSearchViewStyle.swift */; };
+		989714A15C8DD8177F6DC5DBA096A95D /* Settlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72476FBAF71EEFF0367397948BBDEAEA /* Settlement.swift */; };
 		9B19EAEAA8FEA9891DF9FE24268E5F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAB074D0C76901E5FF7C077367F043F /* Foundation.framework */; };
-		A18BE28E993FDED6E83CDA4E32163343 /* SwiftCSV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F395B92D2B1E5E7B6A441DB5B1F939A /* SwiftCSV-dummy.m */; };
+		9F1F11D4E677F19F30DC738278EFFFA9 /* ROSearchView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 064E1EF1801092871342191E2B73323B /* ROSearchView.xib */; };
 		A2ECF03F3493B81B5902326A64498FEC /* Pods-Roatlas_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 495EE57C8E94811DF8819448F07DCB1B /* Pods-Roatlas_Example-dummy.m */; };
-		AD32742972B4885A224870D4DC3CE3A7 /* ROSearchViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99050B07B03A176BA61DA4E977EAF0EC /* ROSearchViewStyle.swift */; };
-		C28279DBA7C70A69BBFA4D5664D77484 /* ROSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A258CFB4C9F95B01BEF9DF0520E77CCA /* ROSearchResultView.swift */; };
+		B41101CF80EC941025C38B7F011B614B /* ROSearchResultView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4FC8BA0989AFC95DD008FC33E6B4AA50 /* ROSearchResultView.xib */; };
 		C4030E7557F4BD9B139F3334DE45DF25 /* SwiftCSV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B32B0CD31E34F40306FC30F3DB703DD /* SwiftCSV.framework */; };
 		C88285BD1F21EC680E2B4B91DFEE2741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAB074D0C76901E5FF7C077367F043F /* Foundation.framework */; };
-		D719A89FEC5A83327D00279019B3C649 /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33DD3908FA544F294024AB4150AD13 /* String+Lines.swift */; };
-		DDB91F6538290515B7D6B8EF4D888858 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1A17313467692513DF3C7C0488069 /* Parser.swift */; };
-		E4044E6BDA94143A284CE6D37EC9B78D /* ParsingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A12861A7AD26E770421EDCDF7CB70C /* ParsingState.swift */; };
-		E7D65F4E28330D8D00B0479B /* ROSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EBBBE318AA3A8F67A6AB392108423 /* ROSearchView.swift */; };
-		E7D65F4F28330D8D00B0479B /* ROSearchResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8380E5AF8DF87C50E664D83AEB9E0ED /* ROSearchResultView.xib */; };
-		E7D65F5028330D8D00B0479B /* ROSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B182FDE230B1CB7020A7376C5337CC /* ROSearchView.xib */; };
-		E7D65F5128330D8D00B0479B /* ROSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A258CFB4C9F95B01BEF9DF0520E77CCA /* ROSearchResultView.swift */; };
-		E7D65F5228330D8D00B0479B /* SettlementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00617F3DBEF1527D754745CF87B1A4 /* SettlementCell.swift */; };
-		E7D65F5328330D8D00B0479B /* SettlementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF361E89195AD76D8915F91D25967EF7 /* SettlementCell.xib */; };
-		E7D65F5428330D9300B0479B /* ROStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E713A16C3DCA8F47FD31DB0724668B54 /* ROStyles.swift */; };
-		E7D65F5528330D9300B0479B /* ROSearchViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99050B07B03A176BA61DA4E977EAF0EC /* ROSearchViewStyle.swift */; };
-		E7D65F5628330D9700B0479B /* ClearButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF0B4B18355AEDDDD5C5AFAAEA2BB3 /* ClearButtonType.swift */; };
-		E7D65F5728330D9700B0479B /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6000CDFDB88A265E9FC6F4610B2F148 /* UIView+Ext.swift */; };
-		E7D65F5828330D9700B0479B /* SettlementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB147645DC98FF28159BB5879BF5EC /* SettlementRepository.swift */; };
-		E7D65F5928330D9700B0479B /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF58274B990B4573CA2EF5F179BD30 /* Debouncer.swift */; };
-		E7D65F5A28330D9D00B0479B /* Settlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C1DA9A17CBA7BDCC4F2F3C036139F /* Settlement.swift */; };
-		F34372802F752DE850B26A2E14C6899D /* ROSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EBBBE318AA3A8F67A6AB392108423 /* ROSearchView.swift */; };
-		F3779E08953E8827F3F3A4C206306E91 /* SettlementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00617F3DBEF1527D754745CF87B1A4 /* SettlementCell.swift */; };
-		F4ABC9528418F0D74138CC001A151709 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6000CDFDB88A265E9FC6F4610B2F148 /* UIView+Ext.swift */; };
+		D5B680F4779ABBF47A99D8B098BA9DC3 /* Roatlas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D91A78D91E7F6FDB243AD71C4359AC /* Roatlas-dummy.m */; };
+		DFD4D049BA952106EFE59C8BB436B164 /* SettlementCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = EC19C644EB5B9C07915A14178E4160CC /* SettlementCell.xib */; };
+		E383A04D42C4BB15BBDB08E48A868E78 /* NamedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA0E13FC4664F24D4A7DF51D275B /* NamedView.swift */; };
+		E4977DF6A0D7F1DA018AB4508E2DEB22 /* localities.csv in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7BD1C3CF0FD8CF21FD39F5D57E52E /* localities.csv */; };
+		EC4510206C5B2EF1BA643907B42C6C2F /* EnumeratedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24267885B60F44D4DD36723C982754C1 /* EnumeratedView.swift */; };
+		ECA7FDAB3BF31E0A504682365D5DB485 /* ParsingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A12861A7AD26E770421EDCDF7CB70C /* ParsingState.swift */; };
+		F426C0F42247FE0661348937F08EC91E /* ROSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0D405B49F04E25F19E5C27BBB5F9F /* ROSearchResultView.swift */; };
+		FC987537B7D77327FBC4CBA83046500C /* localities.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7BD1C3CF0FD8CF21FD39F5D57E52E /* localities.csv */; };
+		FE437ED878BBE60EEAF12EE705BD12C1 /* SettlementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710313DE5755A2619598D0E659CBA44B /* SettlementRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08B91427BAC3EE8AC54FEE483BECB910 /* PBXContainerItemProxy */ = {
+		149A807257D4FD674F7A3AF7767CA44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7465E4C13FFC9CE6D359E31F65D6825;
+			remoteInfo = SwiftCSV;
+		};
+		19E98D88958A15E217729417D0F61A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7465E4C13FFC9CE6D359E31F65D6825;
+			remoteInfo = SwiftCSV;
+		};
+		4673130B063CBE68663EEBFA439B312C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 791A8C9FAC854E00292C41B896EB7BE7;
 			remoteInfo = "Pods-Roatlas_Example";
 		};
-		11EC4ED3893BC3E3989AC83AC6EBAE84 /* PBXContainerItemProxy */ = {
+		DFBAC14EE5BD634F412A430AA2089ABF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F2DD63875F114E85CD5D95EB7E02E284;
 			remoteInfo = "Roatlas-Roatlas";
 		};
-		BF4849EBDAF3B8345137E1ABAC7B0602 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B7465E4C13FFC9CE6D359E31F65D6825;
-			remoteInfo = SwiftCSV;
-		};
-		F9A93504EEA145B37C759856757BEA1F /* PBXContainerItemProxy */ = {
+		DFCEA020E131321BB54116BBC19ABC04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1C852108AFBDD1F4651F71F3C50482C6;
 			remoteInfo = Roatlas;
 		};
-		FF27748E95C9917A403ABBC34923486A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B7465E4C13FFC9CE6D359E31F65D6825;
-			remoteInfo = SwiftCSV;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D306AE0C2EFD04C8168355483CC1CE /* Roatlas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Roatlas.debug.xcconfig; sourceTree = "<group>"; };
-		0BC8157ADD5ADBF051E4E7330BD01588 /* Roatlas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Roatlas-umbrella.h"; sourceTree = "<group>"; };
+		064E1EF1801092871342191E2B73323B /* ROSearchView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ROSearchView.xib; sourceTree = "<group>"; };
+		06C2FAA8CC9C1123765FC2E6482B86F8 /* Roatlas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Roatlas.release.xcconfig; sourceTree = "<group>"; };
+		070D390EEDC74A148EE692E248B40EE7 /* Roatlas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Roatlas-umbrella.h"; sourceTree = "<group>"; };
 		0CAB074D0C76901E5FF7C077367F043F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1062F0034CC91B831912DDE3D27523DB /* Pods-Roatlas_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roatlas_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1506230C99139BFF53243E713F2A4042 /* Roatlas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Roatlas-prefix.pch"; sourceTree = "<group>"; };
+		190457740F3B4F612047A57512EE4F02 /* ROSearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ROSearchView.swift; sourceTree = "<group>"; };
 		1AC6233D9BBF6AAF53FAAA76A4D06E98 /* SwiftCSV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCSV.debug.xcconfig; sourceTree = "<group>"; };
+		1E3701B758B906CE1C44B9676C3C9E22 /* Roatlas-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Roatlas-Info.plist"; sourceTree = "<group>"; };
 		2026EDA9B2C54C6EEE0FA5B5DBF16B79 /* Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Description.swift; path = SwiftCSV/Description.swift; sourceTree = "<group>"; };
 		23ECEF553D17237979EB229192CBF868 /* SwiftCSV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftCSV-Info.plist"; sourceTree = "<group>"; };
 		24267885B60F44D4DD36723C982754C1 /* EnumeratedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumeratedView.swift; path = SwiftCSV/EnumeratedView.swift; sourceTree = "<group>"; };
 		24FFB183F026935545290C55237C3FF3 /* SwiftCSV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-prefix.pch"; sourceTree = "<group>"; };
+		2611CC6D3F38DBFF1CD5FE4B7E129D55 /* Debouncer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
 		2C9ADFEB9EEB15157F24F70C26047CB8 /* Pods-Roatlas_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Roatlas_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2D16ACDE2AE4B3E0207DFE4596ECCF28 /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = SwiftCSV/CSV.swift; sourceTree = "<group>"; };
+		2E6DFFCB95B08FD48755EB3DC180BF07 /* ROStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ROStyles.swift; sourceTree = "<group>"; };
 		2F395B92D2B1E5E7B6A441DB5B1F939A /* SwiftCSV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCSV-dummy.m"; sourceTree = "<group>"; };
-		2F8C1DA9A17CBA7BDCC4F2F3C036139F /* Settlement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Settlement.swift; sourceTree = "<group>"; };
+		30BB81487AA2D62F6EA733ABB608FEAF /* UIView+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		3B32B0CD31E34F40306FC30F3DB703DD /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E042B3361E5F6CE32847431F2FA19C9 /* Roatlas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Roatlas.release.xcconfig; sourceTree = "<group>"; };
+		3BB7BD1C3CF0FD8CF21FD39F5D57E52E /* localities.csv */ = {isa = PBXFileReference; includeInIndex = 1; name = localities.csv; path = Roatlas/Classes/localities.csv; sourceTree = "<group>"; };
 		495EE57C8E94811DF8819448F07DCB1B /* Pods-Roatlas_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Roatlas_Example-dummy.m"; sourceTree = "<group>"; };
-		4BBB9D16E51BA88F8C197E136DBAD491 /* Roatlas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Roatlas-dummy.m"; sourceTree = "<group>"; };
 		4CEED7EA55B642E931444502A59DF1CA /* Pods-Roatlas_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roatlas_Example-Info.plist"; sourceTree = "<group>"; };
 		4D33DD3908FA544F294024AB4150AD13 /* String+Lines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Lines.swift"; path = "SwiftCSV/String+Lines.swift"; sourceTree = "<group>"; };
 		4EC1A17313467692513DF3C7C0488069 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = SwiftCSV/Parser.swift; sourceTree = "<group>"; };
-		4EE4C08B7FC10EC17F64CF7138DACF19 /* Roatlas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Roatlas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE4C08B7FC10EC17F64CF7138DACF19 /* Roatlas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Roatlas.framework; path = Roatlas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC8BA0989AFC95DD008FC33E6B4AA50 /* ROSearchResultView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ROSearchResultView.xib; sourceTree = "<group>"; };
 		51D4DD086C749529EAD903B931573E58 /* Pods-Roatlas_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Roatlas_Example.modulemap"; sourceTree = "<group>"; };
 		54DE705C92D7D2D35F65FB4767C55DA7 /* SwiftCSV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSV-umbrella.h"; sourceTree = "<group>"; };
-		5A6CBEAC7212DCE694AC28667C36D2D1 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F42414AFBC8C594448FA1A83C8238F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5F852F01FB98BD3DE5559E1DB031D6BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		63BB147645DC98FF28159BB5879BF5EC /* SettlementRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettlementRepository.swift; sourceTree = "<group>"; };
+		592C9C3095F0CFCE6F63FBE3AB89DE6B /* Roatlas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Roatlas-prefix.pch"; sourceTree = "<group>"; };
+		5A6CBEAC7212DCE694AC28667C36D2D1 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftCSV.framework; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D32185740588515B76C05649559C76A /* Roatlas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Roatlas.modulemap; sourceTree = "<group>"; };
+		6445E3423391E0D6992E72F130779B26 /* Roatlas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Roatlas.debug.xcconfig; sourceTree = "<group>"; };
 		678522CE8E621672DD566A3BB0B46B87 /* Pods-Roatlas_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roatlas_Tests-Info.plist"; sourceTree = "<group>"; };
-		6EDC65BAE705EC21BB1C3D05DFF1384D /* Pods_Roatlas_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roatlas_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDC65BAE705EC21BB1C3D05DFF1384D /* Pods_Roatlas_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Roatlas_Example.framework; path = "Pods-Roatlas_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		709EC0482228BD39C3A0D472FB9035DF /* SwiftCSV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftCSV.modulemap; sourceTree = "<group>"; };
+		710313DE5755A2619598D0E659CBA44B /* SettlementRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettlementRepository.swift; sourceTree = "<group>"; };
+		72476FBAF71EEFF0367397948BBDEAEA /* Settlement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Settlement.swift; sourceTree = "<group>"; };
 		78E10D2776592FA62F04216AE1E948FC /* Pods-Roatlas_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roatlas_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E5DBEFC1C550FCB28C2DBCB2061A329 /* Roatlas.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Roatlas.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84689F8DC6A39A87B30527B210576BE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8740127DC56D7F4F3ED5358725F7C6BD /* SettlementCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettlementCell.swift; sourceTree = "<group>"; };
 		8CD2CEBE09C083EE9D572589E0F2A6D3 /* Pods-Roatlas_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roatlas_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		930252CD15F74148A4A41FC32F744406 /* Pods_Roatlas_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roatlas_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		930252CD15F74148A4A41FC32F744406 /* Pods_Roatlas_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Roatlas_Tests.framework; path = "Pods-Roatlas_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95989B6D13F366F032826661089E00F5 /* Pods-Roatlas_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roatlas_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		99050B07B03A176BA61DA4E977EAF0EC /* ROSearchViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ROSearchViewStyle.swift; sourceTree = "<group>"; };
 		9C708809D24C527FE7F9AA9668111052 /* Pods-Roatlas_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Roatlas_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC0D405B49F04E25F19E5C27BBB5F9F /* ROSearchResultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ROSearchResultView.swift; sourceTree = "<group>"; };
 		A0333701840C8F13A7EA5D9D05150C9B /* Pods-Roatlas_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Roatlas_Tests-dummy.m"; sourceTree = "<group>"; };
-		A258CFB4C9F95B01BEF9DF0520E77CCA /* ROSearchResultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ROSearchResultView.swift; sourceTree = "<group>"; };
-		A38452C9624958554B8D3325BE98815F /* Roatlas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Roatlas.modulemap; sourceTree = "<group>"; };
-		A4B182FDE230B1CB7020A7376C5337CC /* ROSearchView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ROSearchView.xib; sourceTree = "<group>"; };
+		A7D91A78D91E7F6FDB243AD71C4359AC /* Roatlas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Roatlas-dummy.m"; sourceTree = "<group>"; };
+		B027628CFF7192D9C8835479B6E39CDD /* ROSearchViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ROSearchViewStyle.swift; sourceTree = "<group>"; };
+		B2DED652DF19592B8047BDB22B2ABF70 /* Roatlas.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Roatlas.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3590B056E88E20C5373748897533F02 /* Pods-Roatlas_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roatlas_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B3F04283DB301B9947A3BDA6379E6746 /* ClearButtonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClearButtonType.swift; sourceTree = "<group>"; };
 		B851E90648B8118673A354989636CFC7 /* Pods-Roatlas_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Roatlas_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C23EBBBE318AA3A8F67A6AB392108423 /* ROSearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ROSearchView.swift; sourceTree = "<group>"; };
-		C5BF3973131DE51B84036152810050A1 /* Roatlas.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Roatlas.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6000CDFDB88A265E9FC6F4610B2F148 /* UIView+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		C018D36CAC5D7BB984B202D7BCDD9AA8 /* ResourceBundle-Roatlas-Roatlas-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Roatlas-Roatlas-Info.plist"; sourceTree = "<group>"; };
+		C5BF3973131DE51B84036152810050A1 /* Roatlas.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Roatlas.bundle; path = "Roatlas-Roatlas.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C628D4E7CDEA2BD447557DBF6E848EDC /* Pods-Roatlas_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Roatlas_Example-umbrella.h"; sourceTree = "<group>"; };
 		C6A12861A7AD26E770421EDCDF7CB70C /* ParsingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParsingState.swift; path = SwiftCSV/ParsingState.swift; sourceTree = "<group>"; };
-		C8380E5AF8DF87C50E664D83AEB9E0ED /* ROSearchResultView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ROSearchResultView.xib; sourceTree = "<group>"; };
 		CD18AA0E13FC4664F24D4A7DF51D275B /* NamedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NamedView.swift; path = SwiftCSV/NamedView.swift; sourceTree = "<group>"; };
-		CDDF58274B990B4573CA2EF5F179BD30 /* Debouncer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
-		D74A526E72821FEBFAB34C57CBA435BE /* ResourceBundle-Roatlas-Roatlas-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Roatlas-Roatlas-Info.plist"; sourceTree = "<group>"; };
 		D9F1FE174D4DCA81C375E5E7BC60B487 /* SwiftCSV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCSV.release.xcconfig; sourceTree = "<group>"; };
 		E4C84CAE1DCEEA9DBE709CF61722E24F /* Pods-Roatlas_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Roatlas_Tests.modulemap"; sourceTree = "<group>"; };
-		E713A16C3DCA8F47FD31DB0724668B54 /* ROStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ROStyles.swift; sourceTree = "<group>"; };
 		E77046587F5669357146C962F58BB539 /* Pods-Roatlas_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Roatlas_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9DF0B4B18355AEDDDD5C5AFAAEA2BB3 /* ClearButtonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClearButtonType.swift; sourceTree = "<group>"; };
-		EB00617F3DBEF1527D754745CF87B1A4 /* SettlementCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettlementCell.swift; sourceTree = "<group>"; };
-		EF361E89195AD76D8915F91D25967EF7 /* SettlementCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SettlementCell.xib; sourceTree = "<group>"; };
-		F04E0F6F67A6436BA79FC5E367AA8CA2 /* Roatlas-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Roatlas-Info.plist"; sourceTree = "<group>"; };
-		F14453991A50794BB73D3D5680D63EA7 /* localities.csv */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = localities.csv; path = Roatlas/Classes/localities.csv; sourceTree = "<group>"; };
+		EC19C644EB5B9C07915A14178E4160CC /* SettlementCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SettlementCell.xib; sourceTree = "<group>"; };
+		FAD245CC321B4518961B8078BCFDDAD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FCF2ABB4CD96250A7AF7D5718AB39E90 /* Pods-Roatlas_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roatlas_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A55CC74944BD2626431E01923FA6685D /* Frameworks */ = {
+		73D521C3905FB3C9567818424CA63121 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90340F5C1D05B73DD501F4738A92D393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486B83EDA861A301171F6EE78D240309 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,14 +180,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				33F549CC8DC07614EC8986A8286625FB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1C5E84930BABF79A2B3DE0EAE1C960D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				56C662327A18391D56D0118774F2B6F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,53 +235,14 @@
 			path = "Target Support Files/Pods-Roatlas_Example";
 			sourceTree = "<group>";
 		};
-		53749307D2604F52D2B28C76BD83A393 /* Pod */ = {
+		307FD3B4DDA1335A9F13AC606BC10FCA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5F852F01FB98BD3DE5559E1DB031D6BB /* LICENSE */,
-				5F42414AFBC8C594448FA1A83C8238F3 /* README.md */,
-				7E5DBEFC1C550FCB28C2DBCB2061A329 /* Roatlas.podspec */,
+				FAD245CC321B4518961B8078BCFDDAD7 /* LICENSE */,
+				84689F8DC6A39A87B30527B210576BE6 /* README.md */,
+				B2DED652DF19592B8047BDB22B2ABF70 /* Roatlas.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		5C3F2FE2FB84006698B0B76D6E6B92DE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				62F60EA7239158DC1E189035D9789F45 /* Roatlas */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		62F60EA7239158DC1E189035D9789F45 /* Roatlas */ = {
-			isa = PBXGroup;
-			children = (
-				E73DCD08281964C50003A0EF /* Views */,
-				E7505D3F2826EB85003991C2 /* Style */,
-				E73DCD0A281964E80003A0EF /* Utils */,
-				E73DCD09281964D80003A0EF /* Model */,
-				F14453991A50794BB73D3D5680D63EA7 /* localities.csv */,
-				53749307D2604F52D2B28C76BD83A393 /* Pod */,
-				6E6A8BF28524E0E2E0117129A3C44FEF /* Support Files */,
-			);
-			name = Roatlas;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6E6A8BF28524E0E2E0117129A3C44FEF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D74A526E72821FEBFAB34C57CBA435BE /* ResourceBundle-Roatlas-Roatlas-Info.plist */,
-				A38452C9624958554B8D3325BE98815F /* Roatlas.modulemap */,
-				4BBB9D16E51BA88F8C197E136DBAD491 /* Roatlas-dummy.m */,
-				F04E0F6F67A6436BA79FC5E367AA8CA2 /* Roatlas-Info.plist */,
-				1506230C99139BFF53243E713F2A4042 /* Roatlas-prefix.pch */,
-				0BC8157ADD5ADBF051E4E7330BD01588 /* Roatlas-umbrella.h */,
-				01D306AE0C2EFD04C8168355483CC1CE /* Roatlas.debug.xcconfig */,
-				3E042B3361E5F6CE32847431F2FA19C9 /* Roatlas.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Roatlas";
 			sourceTree = "<group>";
 		};
 		7CB4D4DE785B19188C1DB656AF8A000B /* Pods */ = {
@@ -303,6 +251,55 @@
 				CE91C188822E0641020E38AD9DE0338C /* SwiftCSV */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5D037EA995A7B33833C7CC32C8DC407 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C018D36CAC5D7BB984B202D7BCDD9AA8 /* ResourceBundle-Roatlas-Roatlas-Info.plist */,
+				5D32185740588515B76C05649559C76A /* Roatlas.modulemap */,
+				A7D91A78D91E7F6FDB243AD71C4359AC /* Roatlas-dummy.m */,
+				1E3701B758B906CE1C44B9676C3C9E22 /* Roatlas-Info.plist */,
+				592C9C3095F0CFCE6F63FBE3AB89DE6B /* Roatlas-prefix.pch */,
+				070D390EEDC74A148EE692E248B40EE7 /* Roatlas-umbrella.h */,
+				6445E3423391E0D6992E72F130779B26 /* Roatlas.debug.xcconfig */,
+				06C2FAA8CC9C1123765FC2E6482B86F8 /* Roatlas.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Roatlas";
+			sourceTree = "<group>";
+		};
+		AB709C71100E4B656B28F91B410CE499 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FC0D405B49F04E25F19E5C27BBB5F9F /* ROSearchResultView.swift */,
+				4FC8BA0989AFC95DD008FC33E6B4AA50 /* ROSearchResultView.xib */,
+				190457740F3B4F612047A57512EE4F02 /* ROSearchView.swift */,
+				064E1EF1801092871342191E2B73323B /* ROSearchView.xib */,
+				8740127DC56D7F4F3ED5358725F7C6BD /* SettlementCell.swift */,
+				EC19C644EB5B9C07915A14178E4160CC /* SettlementCell.xib */,
+			);
+			name = Views;
+			path = Roatlas/Classes/Views;
+			sourceTree = "<group>";
+		};
+		B625B73FB4CD527CCF3598293A2318E8 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				B027628CFF7192D9C8835479B6E39CDD /* ROSearchViewStyle.swift */,
+				2E6DFFCB95B08FD48755EB3DC180BF07 /* ROStyles.swift */,
+			);
+			name = Style;
+			path = Roatlas/Classes/Style;
+			sourceTree = "<group>";
+		};
+		B79C5B4DA3C65A30BB056336CB4ECC92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72476FBAF71EEFF0367397948BBDEAEA /* Settlement.swift */,
+			);
+			name = Model;
+			path = Roatlas/Classes/Model;
 			sourceTree = "<group>";
 		};
 		B9EB3207FC75217FD4CDEB7323FC1152 /* iOS */ = {
@@ -325,6 +322,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C8D935558DD9F6266E046336BF9FDA5E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B3F04283DB301B9947A3BDA6379E6746 /* ClearButtonType.swift */,
+				2611CC6D3F38DBFF1CD5FE4B7E129D55 /* Debouncer.swift */,
+				710313DE5755A2619598D0E659CBA44B /* SettlementRepository.swift */,
+				30BB81487AA2D62F6EA733ABB608FEAF /* UIView+Ext.swift */,
+			);
+			name = Utils;
+			path = Roatlas/Classes/Utils;
+			sourceTree = "<group>";
+		};
 		CE91C188822E0641020E38AD9DE0338C /* SwiftCSV */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +346,7 @@
 				4D33DD3908FA544F294024AB4150AD13 /* String+Lines.swift */,
 				0A3D164F168DCE8490382F0C953781A2 /* Support Files */,
 			);
+			name = SwiftCSV;
 			path = SwiftCSV;
 			sourceTree = "<group>";
 		};
@@ -344,7 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5C3F2FE2FB84006698B0B76D6E6B92DE /* Development Pods */,
+				E5B7B0521AEED73FCCAFB69BD8FE6C7D /* Development Pods */,
 				FB02D7C8697ECE9D84DA5F8BF770B941 /* Frameworks */,
 				7CB4D4DE785B19188C1DB656AF8A000B /* Pods */,
 				C74ADF13C509DA918009FA17A75E926E /* Products */,
@@ -352,45 +362,27 @@
 			);
 			sourceTree = "<group>";
 		};
-		E73DCD08281964C50003A0EF /* Views */ = {
+		DF40720A53DE393D8C576566EDBEB257 /* Roatlas */ = {
 			isa = PBXGroup;
 			children = (
-				C23EBBBE318AA3A8F67A6AB392108423 /* ROSearchView.swift */,
-				A4B182FDE230B1CB7020A7376C5337CC /* ROSearchView.xib */,
-				A258CFB4C9F95B01BEF9DF0520E77CCA /* ROSearchResultView.swift */,
-				C8380E5AF8DF87C50E664D83AEB9E0ED /* ROSearchResultView.xib */,
-				EB00617F3DBEF1527D754745CF87B1A4 /* SettlementCell.swift */,
-				EF361E89195AD76D8915F91D25967EF7 /* SettlementCell.xib */,
+				3BB7BD1C3CF0FD8CF21FD39F5D57E52E /* localities.csv */,
+				B79C5B4DA3C65A30BB056336CB4ECC92 /* Model */,
+				307FD3B4DDA1335A9F13AC606BC10FCA /* Pod */,
+				B625B73FB4CD527CCF3598293A2318E8 /* Style */,
+				A5D037EA995A7B33833C7CC32C8DC407 /* Support Files */,
+				C8D935558DD9F6266E046336BF9FDA5E /* Utils */,
+				AB709C71100E4B656B28F91B410CE499 /* Views */,
 			);
-			path = Views;
+			name = Roatlas;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		E73DCD09281964D80003A0EF /* Model */ = {
+		E5B7B0521AEED73FCCAFB69BD8FE6C7D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F8C1DA9A17CBA7BDCC4F2F3C036139F /* Settlement.swift */,
+				DF40720A53DE393D8C576566EDBEB257 /* Roatlas */,
 			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E73DCD0A281964E80003A0EF /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				63BB147645DC98FF28159BB5879BF5EC /* SettlementRepository.swift */,
-				C6000CDFDB88A265E9FC6F4610B2F148 /* UIView+Ext.swift */,
-				E9DF0B4B18355AEDDDD5C5AFAAEA2BB3 /* ClearButtonType.swift */,
-				CDDF58274B990B4573CA2EF5F179BD30 /* Debouncer.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		E7505D3F2826EB85003991C2 /* Style */ = {
-			isa = PBXGroup;
-			children = (
-				99050B07B03A176BA61DA4E977EAF0EC /* ROSearchViewStyle.swift */,
-				E713A16C3DCA8F47FD31DB0724668B54 /* ROStyles.swift */,
-			);
-			path = Style;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EBC92274FD6BA38801C3B07803E5F60D /* Pods-Roatlas_Tests */ = {
@@ -437,19 +429,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97A2473E6DE1C183D117F876FF96CA4E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23FFAE695173825F627CAFEF7C68F914 /* SwiftCSV-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B72C5B68152BCE80A0AAAC8600306476 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				59F4C2E633C3AEF61523A7E9FEFB59C3 /* Pods-Roatlas_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03CD44F1D9AB9AC89D1001A722EA5C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9158D33BD8248AFCAFCC4976965504E6 /* SwiftCSV-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,15 +453,15 @@
 			buildConfigurationList = 6D7DC1B76887C51686FB709428587D59 /* Build configuration list for PBXNativeTarget "Roatlas" */;
 			buildPhases = (
 				9210833C91702993A7622C3ED7771678 /* Headers */,
-				2D4C6ABAE82AFC3A65D05D4454187BE1 /* Sources */,
+				2944337B8EF62868040385EC6C3F54D7 /* Sources */,
 				AFDC23784436EDFEED966DC86B54AA32 /* Frameworks */,
 				786E5E89703687648E6637843AFA8D9F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				107DC8EB4F31D8A651F61E868CD4E586 /* PBXTargetDependency */,
-				922143350EB3FB16C267B6029F7D9A99 /* PBXTargetDependency */,
+				3068173AF1B07E49A27A6F6149F9F224 /* PBXTargetDependency */,
+				83113BF9ABBAEC9433601DE552371B72 /* PBXTargetDependency */,
 			);
 			name = Roatlas;
 			productName = Roatlas;
@@ -488,8 +480,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				14A48208E2AEB236394E9268706EE0DE /* PBXTargetDependency */,
-				539BB3C44B1E1A2C65411B7F3CDAC983 /* PBXTargetDependency */,
+				EA82299629CD4A7AB856E1EC8E16D2BF /* PBXTargetDependency */,
+				6403507FEEB5441234DD72B4CAE98753 /* PBXTargetDependency */,
 			);
 			name = "Pods-Roatlas_Example";
 			productName = "Pods-Roatlas_Example";
@@ -508,7 +500,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FFBAA1D7D74E4618E37E14747AEEF367 /* PBXTargetDependency */,
+				10DAC0244E6138F1BAFC7B63533AD505 /* PBXTargetDependency */,
 			);
 			name = "Pods-Roatlas_Tests";
 			productName = "Pods-Roatlas_Tests";
@@ -517,12 +509,12 @@
 		};
 		B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA6FF27354E7209195BFD6E66E9A2B91 /* Build configuration list for PBXNativeTarget "SwiftCSV" */;
+			buildConfigurationList = 9342CBC2F6D5267DA6BD1AD6E0508EA8 /* Build configuration list for PBXNativeTarget "SwiftCSV" */;
 			buildPhases = (
-				97A2473E6DE1C183D117F876FF96CA4E /* Headers */,
-				152ABBFB697ABBFEBDE68C170445DF93 /* Sources */,
-				E1C5E84930BABF79A2B3DE0EAE1C960D /* Frameworks */,
-				23C59D98A7DCE461B4E7651B4EB2EA53 /* Resources */,
+				C03CD44F1D9AB9AC89D1001A722EA5C0 /* Headers */,
+				617834D8D080C3958DC23F7076843B0C /* Sources */,
+				90340F5C1D05B73DD501F4738A92D393 /* Frameworks */,
+				3E80F4142A3B0C2DCA120A1B22E96DC0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -535,11 +527,11 @@
 		};
 		F2DD63875F114E85CD5D95EB7E02E284 /* Roatlas-Roatlas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5186B0C9557C829FEF37EB99A6E1883D /* Build configuration list for PBXNativeTarget "Roatlas-Roatlas" */;
+			buildConfigurationList = 3751E6DEBFAB9CED7E406329EEA6DECF /* Build configuration list for PBXNativeTarget "Roatlas-Roatlas" */;
 			buildPhases = (
-				A71902A8891649C9279813C982A9CCCE /* Sources */,
-				A55CC74944BD2626431E01923FA6685D /* Frameworks */,
-				2CD4F129C334D3E953DBAC68A97448CD /* Resources */,
+				D75E0F988605662996524274C2C4D2FB /* Sources */,
+				73D521C3905FB3C9567818424CA63121 /* Frameworks */,
+				3CF413C8A0FAF8B32EB755B94BC8B963 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -558,11 +550,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
-				TargetAttributes = {
-					F2DD63875F114E85CD5D95EB7E02E284 = {
-						LastSwiftMigration = 1330;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -601,21 +588,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23C59D98A7DCE461B4E7651B4EB2EA53 /* Resources */ = {
+		3CF413C8A0FAF8B32EB755B94BC8B963 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC987537B7D77327FBC4CBA83046500C /* localities.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2CD4F129C334D3E953DBAC68A97448CD /* Resources */ = {
+		3E80F4142A3B0C2DCA120A1B22E96DC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D65F5328330D8D00B0479B /* SettlementCell.xib in Resources */,
-				E7D65F4F28330D8D00B0479B /* ROSearchResultView.xib in Resources */,
-				31C9B2D5C48DB2C27D8BDAD5E051CF54 /* localities.csv in Resources */,
-				E7D65F5028330D8D00B0479B /* ROSearchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,40 +614,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		152ABBFB697ABBFEBDE68C170445DF93 /* Sources */ = {
+		2944337B8EF62868040385EC6C3F54D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042FDDAB6290DBD753774F4C1C10A1BE /* CSV.swift in Sources */,
-				1C7C7F163EC53AEC7455E8417273F040 /* Description.swift in Sources */,
-				297173F3469757A15E75EBD5AA2ED9FB /* EnumeratedView.swift in Sources */,
-				938EFC01BC3629D6A8C06A76CE54F2FE /* NamedView.swift in Sources */,
-				DDB91F6538290515B7D6B8EF4D888858 /* Parser.swift in Sources */,
-				E4044E6BDA94143A284CE6D37EC9B78D /* ParsingState.swift in Sources */,
-				D719A89FEC5A83327D00279019B3C649 /* String+Lines.swift in Sources */,
-				A18BE28E993FDED6E83CDA4E32163343 /* SwiftCSV-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D4C6ABAE82AFC3A65D05D4454187BE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F911B245999B79F9A61563814BE3902 /* ClearButtonType.swift in Sources */,
-				2F1534B87FBA7805876F3BFB751BE830 /* Debouncer.swift in Sources */,
-				854793C6600BAC6D7EB91B7A8DC681C3 /* localities.csv in Sources */,
-				28B2715115CCDEA09953D752C5A3AD4B /* Roatlas-dummy.m in Sources */,
-				C28279DBA7C70A69BBFA4D5664D77484 /* ROSearchResultView.swift in Sources */,
-				45A236AD091C87456DBA0C63BB6DC1F4 /* ROSearchResultView.xib in Sources */,
-				F34372802F752DE850B26A2E14C6899D /* ROSearchView.swift in Sources */,
-				9659EA6FCB6E1278EF76649466D509F3 /* ROSearchView.xib in Sources */,
-				AD32742972B4885A224870D4DC3CE3A7 /* ROSearchViewStyle.swift in Sources */,
-				4A607322E1EF3F5D648F06DE798964C1 /* ROStyles.swift in Sources */,
-				83C8637B65DE5F851A3E253F795D291D /* Settlement.swift in Sources */,
-				F3779E08953E8827F3F3A4C206306E91 /* SettlementCell.swift in Sources */,
-				10C478091D0CE27CD93E2905170E928E /* SettlementCell.xib in Sources */,
-				05DE68DB3D8E24C224B139B5C97DB3F2 /* SettlementRepository.swift in Sources */,
-				F4ABC9528418F0D74138CC001A151709 /* UIView+Ext.swift in Sources */,
+				871461C14377DB2F3A1F99E936A277A6 /* ClearButtonType.swift in Sources */,
+				4023228909991C253297DBB1D32D50A0 /* Debouncer.swift in Sources */,
+				E4977DF6A0D7F1DA018AB4508E2DEB22 /* localities.csv in Sources */,
+				D5B680F4779ABBF47A99D8B098BA9DC3 /* Roatlas-dummy.m in Sources */,
+				F426C0F42247FE0661348937F08EC91E /* ROSearchResultView.swift in Sources */,
+				B41101CF80EC941025C38B7F011B614B /* ROSearchResultView.xib in Sources */,
+				56E66DD1E6722E4B5B695BEEBC6DFB6C /* ROSearchView.swift in Sources */,
+				9F1F11D4E677F19F30DC738278EFFFA9 /* ROSearchView.xib in Sources */,
+				94C073C8C476F4CD0E1AC3BE44D7F761 /* ROSearchViewStyle.swift in Sources */,
+				37BD16721B2CF938D7A948609FFE4A9E /* ROStyles.swift in Sources */,
+				989714A15C8DD8177F6DC5DBA096A95D /* Settlement.swift in Sources */,
+				0D8B013732EBFC4AE27A15420158B209 /* SettlementCell.swift in Sources */,
+				DFD4D049BA952106EFE59C8BB436B164 /* SettlementCell.xib in Sources */,
+				FE437ED878BBE60EEAF12EE705BD12C1 /* SettlementRepository.swift in Sources */,
+				5D3EC6376E02866DEFFE5A049DC327B9 /* UIView+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,20 +644,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A71902A8891649C9279813C982A9CCCE /* Sources */ = {
+		617834D8D080C3958DC23F7076843B0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D65F5128330D8D00B0479B /* ROSearchResultView.swift in Sources */,
-				E7D65F5628330D9700B0479B /* ClearButtonType.swift in Sources */,
-				E7D65F5928330D9700B0479B /* Debouncer.swift in Sources */,
-				E7D65F5828330D9700B0479B /* SettlementRepository.swift in Sources */,
-				E7D65F4E28330D8D00B0479B /* ROSearchView.swift in Sources */,
-				E7D65F5528330D9300B0479B /* ROSearchViewStyle.swift in Sources */,
-				E7D65F5728330D9700B0479B /* UIView+Ext.swift in Sources */,
-				E7D65F5428330D9300B0479B /* ROStyles.swift in Sources */,
-				E7D65F5A28330D9D00B0479B /* Settlement.swift in Sources */,
-				E7D65F5228330D8D00B0479B /* SettlementCell.swift in Sources */,
+				8C474509AADB3E900D2283AC2BEB65B0 /* CSV.swift in Sources */,
+				1CC1BF6EC918FDAB27E59ADC6959F20A /* Description.swift in Sources */,
+				EC4510206C5B2EF1BA643907B42C6C2F /* EnumeratedView.swift in Sources */,
+				E383A04D42C4BB15BBDB08E48A868E78 /* NamedView.swift in Sources */,
+				7E56331749B8964DF00181D2706FCA72 /* Parser.swift in Sources */,
+				ECA7FDAB3BF31E0A504682365D5DB485 /* ParsingState.swift in Sources */,
+				47BBCEBE7D36F35E3C42D467BBE46DB2 /* String+Lines.swift in Sources */,
+				0B296A540A4BD04204E7FD8A990D8B0A /* SwiftCSV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75E0F988605662996524274C2C4D2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,73 +677,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		107DC8EB4F31D8A651F61E868CD4E586 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Roatlas-Roatlas";
-			target = F2DD63875F114E85CD5D95EB7E02E284 /* Roatlas-Roatlas */;
-			targetProxy = 11EC4ED3893BC3E3989AC83AC6EBAE84 /* PBXContainerItemProxy */;
-		};
-		14A48208E2AEB236394E9268706EE0DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Roatlas;
-			target = 1C852108AFBDD1F4651F71F3C50482C6 /* Roatlas */;
-			targetProxy = F9A93504EEA145B37C759856757BEA1F /* PBXContainerItemProxy */;
-		};
-		539BB3C44B1E1A2C65411B7F3CDAC983 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftCSV;
-			target = B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */;
-			targetProxy = FF27748E95C9917A403ABBC34923486A /* PBXContainerItemProxy */;
-		};
-		922143350EB3FB16C267B6029F7D9A99 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftCSV;
-			target = B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */;
-			targetProxy = BF4849EBDAF3B8345137E1ABAC7B0602 /* PBXContainerItemProxy */;
-		};
-		FFBAA1D7D74E4618E37E14747AEEF367 /* PBXTargetDependency */ = {
+		10DAC0244E6138F1BAFC7B63533AD505 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Roatlas_Example";
 			target = 791A8C9FAC854E00292C41B896EB7BE7 /* Pods-Roatlas_Example */;
-			targetProxy = 08B91427BAC3EE8AC54FEE483BECB910 /* PBXContainerItemProxy */;
+			targetProxy = 4673130B063CBE68663EEBFA439B312C /* PBXContainerItemProxy */;
+		};
+		3068173AF1B07E49A27A6F6149F9F224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Roatlas-Roatlas";
+			target = F2DD63875F114E85CD5D95EB7E02E284 /* Roatlas-Roatlas */;
+			targetProxy = DFBAC14EE5BD634F412A430AA2089ABF /* PBXContainerItemProxy */;
+		};
+		6403507FEEB5441234DD72B4CAE98753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCSV;
+			target = B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */;
+			targetProxy = 149A807257D4FD674F7A3AF7767CA44C /* PBXContainerItemProxy */;
+		};
+		83113BF9ABBAEC9433601DE552371B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCSV;
+			target = B7465E4C13FFC9CE6D359E31F65D6825 /* SwiftCSV */;
+			targetProxy = 19E98D88958A15E217729417D0F61A1C /* PBXContainerItemProxy */;
+		};
+		EA82299629CD4A7AB856E1EC8E16D2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Roatlas;
+			target = 1C852108AFBDD1F4651F71F3C50482C6 /* Roatlas */;
+			targetProxy = DFCEA020E131321BB54116BBC19ABC04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C90890FE609152AC725638F76051E41 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9F1FE174D4DCA81C375E5E7BC60B487 /* SwiftCSV.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSV/SwiftCSV-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftCSV/SwiftCSV-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftCSV/SwiftCSV.modulemap";
-				PRODUCT_MODULE_NAME = SwiftCSV;
-				PRODUCT_NAME = SwiftCSV;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1CDFD66666993096BFA2160593C4EA5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E042B3361E5F6CE32847431F2FA19C9 /* Roatlas.release.xcconfig */;
+			baseConfigurationReference = 06C2FAA8CC9C1123765FC2E6482B86F8 /* Roatlas.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -864,9 +807,25 @@
 			};
 			name = Debug;
 		};
+		2ED2E79F4EA26A13369E9BAA4D0FD593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6445E3423391E0D6992E72F130779B26 /* Roatlas.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Roatlas";
+				IBSC_MODULE = Roatlas;
+				INFOPLIST_FILE = "Target Support Files/Roatlas/ResourceBundle-Roatlas-Roatlas-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Roatlas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		35A63C0D556066446704252E155ACF32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01D306AE0C2EFD04C8168355483CC1CE /* Roatlas.debug.xcconfig */;
+			baseConfigurationReference = 6445E3423391E0D6992E72F130779B26 /* Roatlas.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -894,7 +853,38 @@
 			};
 			name = Debug;
 		};
-		52234ECC25FB23732BAFF258F49F18D8 /* Debug */ = {
+		70167E7711BC9645D21C9C2E16455712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F1FE174D4DCA81C375E5E7BC60B487 /* SwiftCSV.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSV/SwiftCSV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCSV/SwiftCSV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCSV/SwiftCSV.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCSV;
+				PRODUCT_NAME = SwiftCSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AEB1B3FC540A37D3CC73BB81136F581 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AC6233D9BBF6AAF53FAAA76A4D06E98 /* SwiftCSV.debug.xcconfig */;
 			buildSettings = {
@@ -923,25 +913,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5E569445ABADFFAF4AF50D30C9FED518 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E042B3361E5F6CE32847431F2FA19C9 /* Roatlas.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Roatlas";
-				IBSC_MODULE = Roatlas;
-				INFOPLIST_FILE = "Target Support Files/Roatlas/ResourceBundle-Roatlas-Roatlas-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = Roatlas;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		AD3AC1BEAE36CC735A528666F8F5A901 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -976,25 +947,21 @@
 			};
 			name = Release;
 		};
-		B5CBD00E320FC436CE6031921AC6D90B /* Debug */ = {
+		AE5BA07553DAFCBB31D459B08F4F2D79 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01D306AE0C2EFD04C8168355483CC1CE /* Roatlas.debug.xcconfig */;
+			baseConfigurationReference = 06C2FAA8CC9C1123765FC2E6482B86F8 /* Roatlas.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Roatlas";
 				IBSC_MODULE = Roatlas;
 				INFOPLIST_FILE = "Target Support Files/Roatlas/ResourceBundle-Roatlas-Roatlas-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = Roatlas;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1051,7 +1018,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1175,20 +1143,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3751E6DEBFAB9CED7E406329EEA6DECF /* Build configuration list for PBXNativeTarget "Roatlas-Roatlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED2E79F4EA26A13369E9BAA4D0FD593 /* Debug */,
+				AE5BA07553DAFCBB31D459B08F4F2D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5186B0C9557C829FEF37EB99A6E1883D /* Build configuration list for PBXNativeTarget "Roatlas-Roatlas" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5CBD00E320FC436CE6031921AC6D90B /* Debug */,
-				5E569445ABADFFAF4AF50D30C9FED518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1202,11 +1170,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA6FF27354E7209195BFD6E66E9A2B91 /* Build configuration list for PBXNativeTarget "SwiftCSV" */ = {
+		9342CBC2F6D5267DA6BD1AD6E0508EA8 /* Build configuration list for PBXNativeTarget "SwiftCSV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52234ECC25FB23732BAFF258F49F18D8 /* Debug */,
-				1C90890FE609152AC725638F76051E41 /* Release */,
+				8AEB1B3FC540A37D3CC73BB81136F581 /* Debug */,
+				70167E7711BC9645D21C9C2E16455712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
