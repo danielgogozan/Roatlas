@@ -40,6 +40,19 @@
 		D719A89FEC5A83327D00279019B3C649 /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33DD3908FA544F294024AB4150AD13 /* String+Lines.swift */; };
 		DDB91F6538290515B7D6B8EF4D888858 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1A17313467692513DF3C7C0488069 /* Parser.swift */; };
 		E4044E6BDA94143A284CE6D37EC9B78D /* ParsingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A12861A7AD26E770421EDCDF7CB70C /* ParsingState.swift */; };
+		E7D65F4E28330D8D00B0479B /* ROSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EBBBE318AA3A8F67A6AB392108423 /* ROSearchView.swift */; };
+		E7D65F4F28330D8D00B0479B /* ROSearchResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8380E5AF8DF87C50E664D83AEB9E0ED /* ROSearchResultView.xib */; };
+		E7D65F5028330D8D00B0479B /* ROSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B182FDE230B1CB7020A7376C5337CC /* ROSearchView.xib */; };
+		E7D65F5128330D8D00B0479B /* ROSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A258CFB4C9F95B01BEF9DF0520E77CCA /* ROSearchResultView.swift */; };
+		E7D65F5228330D8D00B0479B /* SettlementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00617F3DBEF1527D754745CF87B1A4 /* SettlementCell.swift */; };
+		E7D65F5328330D8D00B0479B /* SettlementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF361E89195AD76D8915F91D25967EF7 /* SettlementCell.xib */; };
+		E7D65F5428330D9300B0479B /* ROStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E713A16C3DCA8F47FD31DB0724668B54 /* ROStyles.swift */; };
+		E7D65F5528330D9300B0479B /* ROSearchViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99050B07B03A176BA61DA4E977EAF0EC /* ROSearchViewStyle.swift */; };
+		E7D65F5628330D9700B0479B /* ClearButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF0B4B18355AEDDDD5C5AFAAEA2BB3 /* ClearButtonType.swift */; };
+		E7D65F5728330D9700B0479B /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6000CDFDB88A265E9FC6F4610B2F148 /* UIView+Ext.swift */; };
+		E7D65F5828330D9700B0479B /* SettlementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB147645DC98FF28159BB5879BF5EC /* SettlementRepository.swift */; };
+		E7D65F5928330D9700B0479B /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF58274B990B4573CA2EF5F179BD30 /* Debouncer.swift */; };
+		E7D65F5A28330D9D00B0479B /* Settlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C1DA9A17CBA7BDCC4F2F3C036139F /* Settlement.swift */; };
 		F34372802F752DE850B26A2E14C6899D /* ROSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EBBBE318AA3A8F67A6AB392108423 /* ROSearchView.swift */; };
 		F3779E08953E8827F3F3A4C206306E91 /* SettlementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00617F3DBEF1527D754745CF87B1A4 /* SettlementCell.swift */; };
 		F4ABC9528418F0D74138CC001A151709 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6000CDFDB88A265E9FC6F4610B2F148 /* UIView+Ext.swift */; };
@@ -545,6 +558,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F2DD63875F114E85CD5D95EB7E02E284 = {
+						LastSwiftMigration = 1330;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -594,7 +612,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D65F5328330D8D00B0479B /* SettlementCell.xib in Resources */,
+				E7D65F4F28330D8D00B0479B /* ROSearchResultView.xib in Resources */,
 				31C9B2D5C48DB2C27D8BDAD5E051CF54 /* localities.csv in Resources */,
+				E7D65F5028330D8D00B0479B /* ROSearchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +679,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D65F5128330D8D00B0479B /* ROSearchResultView.swift in Sources */,
+				E7D65F5628330D9700B0479B /* ClearButtonType.swift in Sources */,
+				E7D65F5928330D9700B0479B /* Debouncer.swift in Sources */,
+				E7D65F5828330D9700B0479B /* SettlementRepository.swift in Sources */,
+				E7D65F4E28330D8D00B0479B /* ROSearchView.swift in Sources */,
+				E7D65F5528330D9300B0479B /* ROSearchViewStyle.swift in Sources */,
+				E7D65F5728330D9700B0479B /* UIView+Ext.swift in Sources */,
+				E7D65F5428330D9300B0479B /* ROStyles.swift in Sources */,
+				E7D65F5A28330D9D00B0479B /* Settlement.swift in Sources */,
+				E7D65F5228330D8D00B0479B /* SettlementCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -897,13 +928,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E042B3361E5F6CE32847431F2FA19C9 /* Roatlas.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Roatlas";
 				IBSC_MODULE = Roatlas;
 				INFOPLIST_FILE = "Target Support Files/Roatlas/ResourceBundle-Roatlas-Roatlas-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = Roatlas;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -946,13 +980,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01D306AE0C2EFD04C8168355483CC1CE /* Roatlas.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Roatlas";
 				IBSC_MODULE = Roatlas;
 				INFOPLIST_FILE = "Target Support Files/Roatlas/ResourceBundle-Roatlas-Roatlas-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = Roatlas;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
