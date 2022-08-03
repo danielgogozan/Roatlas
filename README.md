@@ -59,7 +59,6 @@ public protocol ROSearchViewDelegate: AnyObject {
 ## Requirements
 
 - iOS 11 or later
-- Swift 5.5 or later
 
 ## Installation
 
